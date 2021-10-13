@@ -3,6 +3,10 @@ h2 {
   font-size: 45px;
 }
 
+p {
+  font-size: 25px;
+}
+
 .ls-height100 {
   height: 100%;
 }
@@ -13,6 +17,10 @@ h2 {
 
 .ls-pt-pb {
   padding: 25px 0;
+}
+
+.ls-c-grey {
+  color: grey;
 }
 
 /* !!!!!!!!!!!!!!!!!! Togliere!!!!!!!!*/
@@ -83,7 +91,7 @@ header {
 
 /***** SECTION PLAY 5 *****/
 
-/* PLAY 5 CENTER  */
+/* PLAY 5 CENTER */
 .play5 .play5__center img {
   width: 100%;
 }
@@ -95,13 +103,7 @@ header {
 }
 
 /* PLAY 5 BOTTOM */
-.play5__bottom {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .play5__bottom__box {
-  width: calc(100% / 3);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,16 +114,12 @@ header {
 
 .play5__bottom__box img {
   width: 100%;
-  padding: 40px;
-}
-
-.play5__bottom__box span {
-  display: none;
+  padding: 25px;
 }
 
 /***** SECTION NEW RELEASE *****/
 
-/* SECTION NEW RELEASE TOP */
+/* NEW RELEASE TOP */
 .ls-new-release__top {
   height: 600px;
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -141,7 +139,7 @@ header {
   width: 70%;
 }
 
-/* SECTION NEW RELEASE BOTTOM */
+/* NEW RELEASE BOTTOM */
 .ls-new-release__bottom {
   background-color: #1f1f1f;
 }
@@ -159,13 +157,9 @@ header {
   width: 100%;
 }
 
-/********** RESPONSIVE **********/
-@media (min-width:768px) {
-  .play5__bottom__box {
-    width: calc(100% / 5);
-  }
-
-  .play5__bottom__box span {
-    display: block;
-  }  
+/***** SECTION PLAY 4 *****/
+/* PLAY4  BOTTOM */
+.play4__main__box img{
+  width: 100%;
 }
+

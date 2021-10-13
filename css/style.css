@@ -93,7 +93,7 @@ header {
 }
 
 .play5__bottom__box {
-  width: calc(100% / 5);
+  width: calc(100% / 3);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,4 +105,20 @@ header {
 .play5__bottom__box img {
   width: 100%;
   padding: 40px;
+}
+
+.play5__bottom__box span {
+  display: none;
+}
+
+
+/********** RESPONSIVE **********/
+@media (min-width:768px) {
+  .play5__bottom__box {
+    width: calc(100% / 5);
+  }
+
+  .play5__bottom__box span {
+    display: block;
+  }  
 }

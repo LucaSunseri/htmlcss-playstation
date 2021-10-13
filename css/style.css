@@ -1,12 +1,17 @@
 /********** GLOBAL **********/
 h2 {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .ls-height100 {
   height: 100%;
 }
 
+/* !!!!!!!!!!!!!!!!!! Togliere!!!!!!!!*/
+footer {
+  height: 300px;
+}
+/* !!!!!!!!!!!!!!!!!! Togliere!!!!!!!!*/
 /********** HEADER **********/
 header {
   background-color: black;
@@ -47,7 +52,7 @@ header {
 
 /* JUMBOTRON BOTTOM */
 .ls-jumbotron__bottom-active {
-  outline: 2px solid blue;
+  outline: 2px solid #0072ce;
   outline-offset: 2px;
 }
 
@@ -59,4 +64,45 @@ header {
 
 .ls-jumbotron__bottom .ls-box img {
   width: 100%;
+}
+
+#playnolimits {
+  color: #0072ce;
+  font-weight: 600;
+}
+
+/********** MAIN **********/
+
+/***** SECTION PLAY 5 *****/
+
+/* PLAY 5 CENTER  */
+.play5 .play5__center img {
+  width: 100%;
+}
+
+.play5__center__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* PLAY 5 BOTTOM */
+.play5__bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.play5__bottom__box {
+  width: calc(100% / 5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.play5__bottom__box img {
+  width: 100%;
+  padding: 40px;
 }

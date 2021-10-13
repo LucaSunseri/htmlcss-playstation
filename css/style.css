@@ -38,7 +38,7 @@ header {
   background-size: cover;
 }
 
-.ls-jumbotron__content {
+.ls-jumbotron__top__content {
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -46,7 +46,7 @@ header {
   color: white;
 }
 
-.ls-jumbotron__content img {
+.ls-jumbotron__top__content img {
   width: 70%;
 }
 
@@ -111,6 +111,26 @@ header {
   display: none;
 }
 
+/***** SECTION NEW RELEASE *****/
+.ls-new-release__top {
+  margin-top: 93px;
+  height: 600px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ls-new-release__top__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.ls-new-release__top__content img {
+  width: 70%;
+}
 
 /********** RESPONSIVE **********/
 @media (min-width:768px) {

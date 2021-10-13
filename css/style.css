@@ -1,4 +1,11 @@
 /********** GLOBAL **********/
+h2 {
+  font-size: 50px;
+}
+
+.ls-height100 {
+  height: 100%;
+}
 
 /********** HEADER **********/
 header {
@@ -17,8 +24,39 @@ header {
 }
 
 /********** JUMBOTRON **********/
-.ls-jumbotron {
+/* JUMBOTRON TOP */
+.ls-jumbotron__top {
   margin-top: 93px;
   height: 500px;
-  background-color: red;
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.ls-jumbotron__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.ls-jumbotron__content img {
+  width: 70%;
+}
+
+/* JUMBOTRON BOTTOM */
+.ls-jumbotron__bottom-active {
+  outline: 2px solid blue;
+  outline-offset: 2px;
+}
+
+.ls-jumbotron__bottom .ls-box {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.ls-jumbotron__bottom .ls-box img {
+  width: 100%;
 }

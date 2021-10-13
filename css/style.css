@@ -3,10 +3,6 @@ h2 {
   font-size: 45px;
 }
 
-p {
-  font-size: 25px;
-}
-
 .ls-height100 {
   height: 100%;
 }
@@ -19,8 +15,14 @@ p {
   padding: 25px 0;
 }
 
-.ls-c-grey {
+.ls-text-grey {
   color: grey;
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.ls-btn-custom {
+  border-radius: 1.25rem;
 }
 
 /* !!!!!!!!!!!!!!!!!! Togliere!!!!!!!!*/

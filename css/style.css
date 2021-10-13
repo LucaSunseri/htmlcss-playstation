@@ -7,6 +7,14 @@ h2 {
   height: 100%;
 }
 
+.ls-mt-mb {
+  margin: 50px 0;
+}
+
+.ls-pt-pb {
+  padding: 25px 0;
+}
+
 /* !!!!!!!!!!!!!!!!!! Togliere!!!!!!!!*/
 footer {
   height: 300px;
@@ -32,7 +40,7 @@ header {
 /* JUMBOTRON TOP */
 .ls-jumbotron__top {
   margin-top: 93px;
-  height: 500px;
+  height: 600px;
   background-image: url(../img/jumbo-bg.png);
   background-position: center;
   background-size: cover;
@@ -112,8 +120,9 @@ header {
 }
 
 /***** SECTION NEW RELEASE *****/
+
+/* SECTION NEW RELEASE TOP */
 .ls-new-release__top {
-  margin-top: 93px;
   height: 600px;
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-position: center;
@@ -130,6 +139,24 @@ header {
 
 .ls-new-release__top__content img {
   width: 70%;
+}
+
+/* SECTION NEW RELEASE BOTTOM */
+.ls-new-release__bottom {
+  background-color: #1f1f1f;
+}
+
+.ls-new-release__bottom p {
+  margin-bottom: 25px;
+}
+
+.ls-new-release__bottom .ls-box {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.ls-new-release__bottom .ls-box img {
+  width: 100%;
 }
 
 /********** RESPONSIVE **********/

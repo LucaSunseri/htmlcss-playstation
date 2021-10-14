@@ -1,6 +1,14 @@
 /********** GLOBAL **********/
+.ls-max-width-sm {
+  max-width: 700px;
+}
+
 h2 {
   font-size: 40px;
+}
+
+h3 {
+  font-size: 35px;
 }
 
 .ls-height100 {
@@ -267,7 +275,7 @@ header {
 
 /***** SECTION PLAY STORE *****/
 
-/* PLAY STORE TOP */
+/* PLAY STORE MAIN */
 .ls-playstore__main__box img {
   width: 100%;
   margin-bottom: 50px;
@@ -289,6 +297,17 @@ header {
 
 .ls-playnow__content img {
   width: 80%;
+}
+
+/***** SECTION SOCIAL *****/
+
+/* SOCIAL MAIN */
+.ls-social__main__box {
+  margin-bottom: 50px;
+}
+
+.ls-social__main__box img {
+  width: 100%;
 }
 
 /********** FOOTER **********/

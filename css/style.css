@@ -49,6 +49,14 @@ h3 {
   color: #fff;
 }
 
+.ls-btn.ls-black{
+  background-color: rgb(24, 24, 24);
+}
+
+.ls-btn.ls-black:hover {
+  filter: opacity(85%);
+}
+
 .ls-btn.ls-red{
   background-color: #dc3545;
 }
@@ -137,7 +145,7 @@ header {
   width: 100px;
 }
 
-.ls-navbar-custom__bottom_dropmenu li {
+.ls-navbar-custom__bottom_dropmenu li, #ls-off {
   list-style: none;
 }
 

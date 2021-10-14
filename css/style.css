@@ -157,7 +157,6 @@ header {
 
 #ls-lens {
   width: 30px;
-  margin-left: 10px;
 }
 
 /* hover */
@@ -316,6 +315,10 @@ header {
 
 /***** SECTION PLAY 4 *****/
 /* PLAY4  BOTTOM */
+.ls-play4__main__box {
+  margin: 25px 0;
+}
+
 .ls-play4__main__box img{
   width: 100%;
 }
@@ -344,7 +347,7 @@ header {
 .ls-playstore__main__box {
   border-radius: 25px;
   overflow: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   transition: all .3s ease-out;
 }
 
@@ -381,7 +384,7 @@ header {
 .ls-social__main__box {
   border-radius: 25px;
   overflow: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   transition: all .3s ease-out;
 }
 

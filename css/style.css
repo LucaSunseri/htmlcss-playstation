@@ -315,11 +315,19 @@ header {
 
 /* SOCIAL MAIN */
 .ls-social__main__box {
+  border-radius: 25px;
+  overflow: hidden;
   margin-bottom: 50px;
+  transition: all .3s ease-out;
 }
 
 .ls-social__main__box img {
   width: 100%;
+}
+
+/* hover */ 
+.ls-social__main__box:hover {
+  transform: scale(1.05);
 }
 
 /********** FOOTER **********/

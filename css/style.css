@@ -157,6 +157,8 @@ header {
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 20px;
+  filter: opacity(90%);
+  transition: all .2s ease-out;
 }
 
 .ls-jumbotron__bottom .ls-box img {
@@ -168,23 +170,32 @@ header {
   font-weight: 600;
 }
 
+/* hover */
+.ls-jumbotron__bottom .ls-box:hover {
+  position: relative;
+  bottom: 10px;
+  filter: opacity(100%);
+  box-shadow: 0px 10px 15px 0px grey;
+  cursor: pointer;
+}
+
 /********** MAIN **********/
 
 /***** SECTION PLAY 5 *****/
 
 /* PLAY 5 CENTER */
-.play5 .play5__center img {
+.ls-play5 .ls-play5__center img {
   width: 100%;
 }
 
-.play5__center__content {
+.ls-play5__center__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 /* PLAY 5 BOTTOM */
-.play5__bottom__box {
+.ls-play5__bottom__box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,19 +204,19 @@ header {
   filter: opacity(60%);
 }
 
-.play5__bottom__box img {
+.ls-play5__bottom__box img {
   width: 100%;
   padding: 30px;
 }
 
 /* active */
-.play5__bottom__box__active {
+.ls-play5__bottom__box__active {
   filter: opacity(100%);
   border-bottom: 3px solid #2787d5;
 }
 
 /* hover */
-.play5__bottom__box:hover {
+.ls-play5__bottom__box:hover {
   filter: opacity(100%);
   cursor: pointer;
 }
@@ -252,7 +263,7 @@ header {
 
 /***** SECTION PLAY 4 *****/
 /* PLAY4  BOTTOM */
-.play4__main__box img{
+.ls-play4__main__box img{
   width: 100%;
 }
 

@@ -276,9 +276,20 @@ header {
 /***** SECTION PLAY STORE *****/
 
 /* PLAY STORE MAIN */
+.ls-playstore__main__box {
+  border-radius: 25px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  transition: all .3s ease-out;
+}
+
 .ls-playstore__main__box img {
   width: 100%;
-  margin-bottom: 50px;
+}
+
+/* hover */
+.ls-playstore__main__box:hover {
+  transform: scale(1.05);
 }
 
 /***** SECTION PLAY NOW *****/

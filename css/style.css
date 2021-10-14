@@ -261,6 +261,11 @@ header {
   width: 100%;
 }
 
+/* hover */
+.ls-new-release__bottom .ls-box:hover {
+  cursor: pointer;
+}
+
 /***** SECTION PLAY 4 *****/
 /* PLAY4  BOTTOM */
 .ls-play4__main__box img{

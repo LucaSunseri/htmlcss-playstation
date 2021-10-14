@@ -141,7 +141,7 @@ header {
 /* JUMBOTRON BOTTOM */
 .ls-jumbotron__bottom-active {
   outline: 2px solid #0072ce;
-  outline-offset: 5px;
+  outline-offset: 3px;
 }
 
 .ls-jumbotron__bottom .ls-box {
@@ -298,6 +298,15 @@ footer {
   color: #fff;
 }
 
+footer p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: #fff;
+}
+
 footer img {
   width: 120px;
 }
@@ -329,7 +338,6 @@ footer ul li a:hover {
 #maggioriinfo {
   color: #fff;
 }
-
 
 
 

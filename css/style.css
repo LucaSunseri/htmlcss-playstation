@@ -3,6 +3,11 @@
   max-width: 700px;
 }
 
+.ls-reset {
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
   font-size: 40px;
 }
@@ -99,31 +104,66 @@ header {
 }
 
 /* NAVBAR */
-.navbar-light .navbar-nav .nav-link {
-  color: black;
+.ls-navbar-custom {
+  background-color: #fff !important;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-.dropdown-toggle::after {
-  content: url(../img/chevron-down-solid.svg);
-  width: 10px;
-  height: 22px;
-  vertical-align: bottom;
+.ls-navbar-custom .nav-link {
+  color: black !important;
+}
+
+.ls-navbar-custom .dropdown {
+  position: static;
+}
+
+.ls-navbar-custom .dropdown-menu {
+  top: 56px;
+  width: 100%;
+  margin-top: 0;
+  border-radius: 0;
   border: none;
+  text-align: center;
+  background-color: #fff;
+  font-size: 17px;
+}
+
+.ls-navbar-custom .dropdown-menu a {
+  font-weight: 600;
+}
+
+.ls-navbar-custom__box img {
+  width: 100px;
+}
+
+.ls-navbar-custom__bottom_dropmenu li {
+  list-style: none;
+}
+
+.ls-navbar-custom__bottom_dropmenu a::before {
+  content: "\25CF";
+  color: #0072ce;
+  margin-right: 5px;
 }
 
 #ls-lens {
   width: 30px;
-  vertical-align: middle;
+  margin-left: 10px;
 }
 
 /* hover */
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #0072ce;
+.ls-navbar-custom .nav-link:hover, .ls-navbar-custom__bottom_dropmenu a:hover {
+  color: #0072ce !important;
+}
+
+.ls-navbar-custom .dropdown-menu a:hover {
+  background-color: #fff;
 }
 
 /********** JUMBOTRON **********/
 .ls-jumbotron {
-  margin-top: 102px;
+  margin-top: 93px;
   margin-bottom: 80px;
 }
 

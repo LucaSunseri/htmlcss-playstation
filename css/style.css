@@ -175,6 +175,7 @@ header {
   margin-bottom: 80px;
 }
 
+/* JUMBOTRON TOP */
 .carousel-item {
   min-height: 600px;
   background-color: blue;
@@ -187,30 +188,17 @@ header {
   text-align: left;
 }
 
+.ls-caption img {
+  width: 70%;
+}
+
+/* JUMBOTRON BOTTOM */
 .carousel-indicators {
   position: static;
   margin-right: 5%;
   margin-left: 5%;
 } 
 
-/* JUMBOTRON TOP */
-.ls-caption img {
-  width: 70%;
-}
-
-.ls-jumbotron__top__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding-bottom: 15px;
-  color: white;
-}
-
-.ls-jumbotron__top__content img {
-  width: 70%;
-}
-
-/* JUMBOTRON BOTTOM */
 .carousel-indicators [data-bs-target] {
   width: auto;
   height: auto;
@@ -238,11 +226,6 @@ header {
   width: 100%;
 }
 
-#playnolimits {
-  color: #0072ce;
-  font-weight: 600;
-}
-
 /* hover */
 .ls-jumbotron__bottom .ls-box:hover {
   margin-top: -10px;
@@ -254,6 +237,11 @@ header {
 /********** MAIN **********/
 
 /***** SECTION PLAY 5 *****/
+/* PLAY 5 TOP */
+#playnolimits {
+  color: #0072ce;
+  font-weight: 600;
+}
 
 /* PLAY 5 CENTER */
 .ls-play5 .ls-play5__center img {

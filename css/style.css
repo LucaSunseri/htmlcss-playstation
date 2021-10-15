@@ -179,7 +179,7 @@ header {
 .carousel-item {
   min-height: 600px;
   background-color: blue;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
 }
 

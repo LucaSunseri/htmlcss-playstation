@@ -175,12 +175,27 @@ header {
   margin-bottom: 80px;
 }
 
-/* JUMBOTRON TOP */
-.ls-jumbotron__top {
-  height: 600px;
-  background-image: url(../img/jumbo-bg.png);
+.carousel-item {
+  min-height: 600px;
+  background-color: blue;
   background-position: center;
   background-size: cover;
+}
+
+.carousel-caption {
+  left: 5%;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: static;
+  margin-right: 5%;
+  margin-left: 5%;
+} 
+
+/* JUMBOTRON TOP */
+.ls-caption img {
+  width: 70%;
 }
 
 .ls-jumbotron__top__content {
@@ -196,6 +211,16 @@ header {
 }
 
 /* JUMBOTRON BOTTOM */
+.carousel-indicators [data-bs-target] {
+  width: auto;
+  height: auto;
+  text-indent : 0;
+  border: none;
+  margin-left : 0;
+  margin-right : 0;
+  opacity: 100%;
+}
+
 .ls-jumbotron__bottom-active {
   outline: 2px solid #0072ce;
   outline-offset: 3px;
@@ -469,6 +494,11 @@ footer ul li a:hover {
 /********** RESPONSIVE **********/
 
 @media (min-width: 768px) {
+
+  /* JUMBOTRON */
+  .carousel-caption {
+    width: 50%;
+  }
 
   /* PLAY PLUS */
   .ls-playplus__content {

@@ -38,9 +38,9 @@ h3 {
 .ls-btn {
   display: inline-block;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 8px 15px;
   border-radius: 20px;
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
   transition: all .1s ease-out;
 }
@@ -81,7 +81,7 @@ h3 {
 }
 
 .ls-btn.ls-grey:hover {
-  outline: 2px solid #d9dadc;
+  outline: 2px solid #d0d1d393;
   outline-offset: 2px;
 }
 
@@ -142,7 +142,8 @@ header {
 }
 
 .ls-navbar-custom__box img {
-  width: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .ls-navbar-custom__bottom_dropmenu li, #ls-off {
@@ -204,7 +205,7 @@ header {
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 20px;
-  filter: opacity(90%);
+  filter: opacity(85%);
   transition: all 0.25s ease-in-out;
 }
 

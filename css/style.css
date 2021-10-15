@@ -325,20 +325,29 @@ header {
 
 /***** SECTION PLAY PLUS *****/
 .ls-playplus {
-  height: 400px;
   background-color: #bebcbb;
 }
 
+/* PLAY PLUS CONTENT */
 .ls-playplus__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 15px;
-  color:black;
+  padding: 50px 0;
 }
 
 .ls-playplus__content img {
   width: 80%;
+}
+
+/* PLAY PLUS IMAGE */
+.ls-playplus__img {
+  display: flex;
+  justify-content: end;
+}
+
+.ls-playplus__img img {
+  width: 100%;
 }
 
 /***** SECTION PLAY STORE *****/
@@ -362,20 +371,29 @@ header {
 
 /***** SECTION PLAY NOW *****/
 .ls-playnow {
-  height: 400px;
   background-color: #161c3b;
 }
 
+/* PLAY NOW CONTENT */
 .ls-playnow__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 15px;
-  color:black;
+  padding: 50px 0;
 }
 
 .ls-playnow__content img {
   width: 80%;
+}
+
+/* PLAY NOW IMAGE */
+.ls-playnow__img {
+  display: flex;
+  justify-content: end;
+}
+
+.ls-playnow__img img {
+  width: 100%;
 }
 
 /***** SECTION SOCIAL *****/
@@ -451,16 +469,15 @@ footer ul li a:hover {
 /********** RESPONSIVE **********/
 
 @media (min-width: 768px) {
-  .ls-playplus {
-    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat;
+
+  /* PLAY PLUS */
+  .ls-playplus__content {
+    padding: 15px 0;
   }
-  .ls-playnow {
-    background-image: url(../img/ps-now-april-featured-image-block.png);
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat;
+
+  /* PLAY NOW */
+  .ls-playnow__content {
+    padding: 15px 0;
   }
+  
 }
